@@ -1,0 +1,6 @@
+web:
+  image: jboss/keycloak
+  ports:
+  - target: 80
+    published: $PORT
+
